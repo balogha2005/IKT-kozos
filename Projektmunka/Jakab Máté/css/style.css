@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+body {
+    margin: 0;
+    background: url('../pics/bloodborne.jpg') fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif
+}
+
+* {
+    box-sizing: border-box
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+header{
+    background: url('../pics/white.jpg') no-repeat;
+    height: 360px;
+
+}
+
+nav{
+    background: rgba(rgb(189, 54, 54) alpha)
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+nav a:hover{
+    background: rgba(155, 0, 8, 0.8);
+}
+
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+nav ul li{
+    float: left;
+}
+
+main{
+    background: white;
+    padding: 40px;
+}
+
+main p{
+    line-height: 1.5;
+}
