@@ -16,13 +16,13 @@ body {
 }
 
 header{
-    background: url('../pics/bg-header.jpg') no-repeat;
+    background: url('../pics/hatter.gif') no-repeat;
     height: 360px;
 
 }  
 
 nav{
-    background: rgba(150, 0, 0, 0.8);
+    background: rgba(15, 23, 42, 1.2);
 }
 
 nav a{
